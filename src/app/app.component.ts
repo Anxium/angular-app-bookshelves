@@ -9,6 +9,7 @@ import * as firebase from 'firebase';
 export class AppComponent {
 
   constructor() {
+
     // Initialize Firebase
     const config = {
       apiKey: 'AIzaSyA1Y-oNteG-vpsUqzEIsHsgNvHr06Dj2Q0',
@@ -19,5 +20,6 @@ export class AppComponent {
       messagingSenderId: '766984752465'
     };
     firebase.initializeApp(config);
+
   }
 }

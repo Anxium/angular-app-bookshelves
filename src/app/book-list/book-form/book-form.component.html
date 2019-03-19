@@ -12,6 +12,7 @@
       </div>
       <div class="form-group">
         <h4>Ajouter une photo</h4>
+        <label class="label-photo" for="photo">Upload</label>
         <input type="file" name="photo" class="form-control" id="photo" (change)="detectFiles($event)" accept="image/*">
         <p class="text-success" *ngIf="fileUploaded">Fichier upload avec succès</p>
       </div>
